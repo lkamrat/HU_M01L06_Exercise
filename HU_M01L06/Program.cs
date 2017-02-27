@@ -89,6 +89,7 @@ namespace HU_M01L06
             }
             Console.WriteLine("The highest number in this array is " + highesNum);
 
+
             // Q5 - Print the lowest number in a 5 numbers array
             int[] intArrayD = new int[5];
             int lowestNum = 0;
@@ -141,6 +142,7 @@ namespace HU_M01L06
                 Console.Write(newArrayA[i] + " ");
             }
 
+
             // Q7 - Sort numbers in a decending order in a new array
             int[] newArrayB = new int[5];
             int[] oldArrayB = new int[5];
@@ -173,10 +175,9 @@ namespace HU_M01L06
                 Console.Write(newArrayB[i] + " ");
             }
 
-            int[] newArray = new int[5];
+            // Sort numbers in an ascending order in a new array using Bubble Sorting
             int a;
 
-            // Sort numbers in an ascending order in a new array using Bubble Sorting
             for (int i = 0; i < newArray.Length; i++)
             {
                 Console.WriteLine("Please enter 5 numbers");
